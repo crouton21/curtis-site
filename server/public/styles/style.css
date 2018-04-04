@@ -221,13 +221,13 @@ hr{
 #cards{
     display: inline-block;
 }
-
+/* 
 .card-2{
     float: right;
     position: absolute;
     top: 53px;
     right: 20px;
-}
+} */
 
 #home-link{
     font-family: 'Josefin Slab', serif;
@@ -236,4 +236,10 @@ hr{
     float: right;
     margin-right: 80px;
     transform: translateY(-30px);
+}
+
+#card{
+    position: relative;
+    display: inline-block;
+    width: 45%;
 }
