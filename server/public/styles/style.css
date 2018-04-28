@@ -113,7 +113,7 @@ h3{
     font-family: 'Josefin Slab', serif;
     color: #000080;
     margin-left: 30px;
-    font-size: 27px;
+    font-size: 32px;
     font-weight: 800;
     letter-spacing: 2px;
     line-height: 120%;
@@ -139,7 +139,7 @@ h3{
 
 #card-title{
     font-family: 'Josefin Slab', serif;
-    font-size: 27px;
+    font-size: 32px;
     color: #000080;
     font-weight: 800;
     letter-spacing: 2px;
@@ -149,7 +149,7 @@ h3{
 #card-description{
     font-family: 'Josefin Slab', serif;
     color: #7f7fbf;
-    font-size: 18px;
+    font-size: 23px;
     line-height: 115%;
 }
 
@@ -167,7 +167,7 @@ hr{
 #home-link{
     font-family: 'Josefin Slab', serif;
     color: #7f7fbf;
-    font-size: 17px;
+    font-size: 18px;
     margin-left: 30px;
     margin-top: 10px;
 }
