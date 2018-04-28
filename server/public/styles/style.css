@@ -101,7 +101,7 @@ li{
 }
 
 li:hover{
-    font-size: 11px;
+    font-size: 16px;
 }
 
 a{
@@ -167,7 +167,7 @@ hr{
 #home-link{
     font-family: 'Josefin Slab', serif;
     color: #7f7fbf;
-    font-size: 12px;
+    font-size: 17px;
     margin-left: 30px;
     margin-top: 10px;
 }
