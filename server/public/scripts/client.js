@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', ['ngRoute', 'ngAnimate']);
+var myApp = angular.module('myApp', ['ngRoute', 'ngAnimate', 'ngMaterial']);
 
 /// Routes ///
 myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
@@ -20,5 +20,3 @@ myApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $l
       template: '<h1>404</h1>'
     });
 }]);
-
-//links to resume, github, projects (solo and group)
