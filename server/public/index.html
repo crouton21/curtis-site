@@ -2,14 +2,14 @@
 <html lang="en" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Christiana Routon</title>
     <script src="vendors/angular.min.js"></script>
     <script src="vendors/angular-route.min.js"></script>
     <script src="scripts/client.js"></script>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
-    <link rel="stylesheet" href="styles/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab"> -->
+    <link rel="stylesheet/less" type="text/css" href="styles/style.less" />
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
     <script src="vendors/angular-animate.min.js"></script>
     <script src="vendors/angular-aria.min.js"></script>
     <script src="vendors/angular-material.min.js"></script>
@@ -18,8 +18,14 @@
 
     <!-- controllers and services -->
     <script src="scripts/controllers/home.controller.js"></script>
-    <script src="scripts/controllers/projects.controller.js"></script>
-    <script src="scripts/services/christiana.service.js"></script>
+    <script src="scripts/controllers/portfolio.controller.js"></script>
+    <script src="scripts/controllers/cv.controller.js"></script>
+    <script src="scripts/controllers/freelance.controller.js"></script>
+    <script src="scripts/controllers/fun.controller.js"></script>
+    <script src="scripts/services/home.service.js"></script>
+
+    <!-- directives -->
+    <script src="directives/primary-menu.js"></script>
 </head>
 <body>
     <main ng-view></main>

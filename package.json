@@ -18,6 +18,7 @@
     "angular-messages": "^1.6.9",
     "angular-route": "^1.6.9",
     "angular-simple-slideshow": "0.0.3",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "less": "^4.1.2"
   }
 }

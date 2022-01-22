@@ -1,5 +1,4 @@
-myApp.controller('HomeController', ['$http', '$location', 'ChristianaService', function($http, $location, ChristianaService) {
-    console.log('HomeController created');
+myApp.controller('HomeController', ['$http', '$location', 'homeService', function($http, $location, homeService) {
     let self = this;
 
  

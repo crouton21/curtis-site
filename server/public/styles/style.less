@@ -1,0 +1,173 @@
+@font-face {
+    font-family: kaufmann;
+    src:url("/fonts/KAUFMANB.ttf");
+}
+
+body, .ng-scope {
+    background-color: #192026;
+    color: #f0f0f1;
+    font-family: "Helvetica";
+}
+
+.page-container-home {
+    display: block;
+    transform: translateY(-128px);
+}
+
+.page-container {
+    display: inline-flex;
+    transform: translateY(-166px);
+}
+
+.page-container-offset {
+    display: inline-flex;
+    transform: translateY(-166px);
+    width: 85%;
+}
+
+.fade-in {
+    -webkit-animation: fadein 6s; 
+    -moz-animation: fadein 6s;
+    -ms-animation: fadein 6s; 
+    -o-animation: fadein 6s; 
+    animation: fadein 6s;
+}
+
+
+.col-sm-6 {
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+}
+
+.menu {
+    display: grid;
+    font-family: "Helvetica";
+    font-size: 31px;
+    float: right;
+    padding: 70px 50px 0 0;
+    z-index: 1;
+    a {
+        color: #f0f0f1;
+        float: right;
+        padding-left: 15px;
+        cursor: pointer;
+        text-align: right;
+    }
+    a:hover {
+        color: #39FF14;
+    }
+    .selected {
+        color: #39FF14;
+    }
+}
+
+.small {
+    font-size: 10px
+}
+
+.credit {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+
+.center-padded {
+    margin: auto;
+    width: 85%;
+    display: block;
+}
+
+.content {
+    h1 {
+        margin-top: 0;
+    }
+    p {
+        margin-top: 0;
+        text-indent: 50px;
+        font-size: 26px;
+    }
+}
+
+// home page
+.mc-esher-hands {
+    font-family: "kaufmann";
+    font-size: 40px;
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 41vw;
+    }
+}
+
+// freelance page
+.border {
+    border-top: 10px double #39FF14;
+    border-bottom: 10px double #39FF14;
+    width: 41%;
+    padding: 106px;
+    padding-top: 68px;
+    margin: auto;
+}
+
+.freelance-text {
+    font-size: 35px;
+}
+
+// cv page
+.cv-link {
+    margin-top: 200px;
+    a {
+        font-size: 34px;
+        color: #39FF14;
+    }
+}
+
+// small screen
+@media screen and (max-width: 700px) and (min-width: 400px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .mc-esher-hands {
+        transform: translateY(0px);
+        img {
+            width: 75vh;
+            position: absolute;
+            top: 0;
+        }
+    }
+
+    .menu {
+        padding: 0;
+        position: absolute;
+        bottom: 40px;
+        right: 15px;
+        display: block;
+        width: 100%;
+    }
+  }
+
+// keyframes
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
